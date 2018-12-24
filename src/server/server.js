@@ -1,4 +1,5 @@
 /* Create a http server */
+console.log('Testing...');
 var http = require('http');
 
 var server = http.createServer(function(req,res){
