@@ -1,6 +1,6 @@
 /* Create a http server */
 console.log('Testing...');
-/*var http = require('http');
+var http = require('http');
 
 var server = http.createServer(function(req,res){
 	res.writeHead(200, {"Content-Type": "text/html"});
@@ -9,4 +9,3 @@ var server = http.createServer(function(req,res){
 });
 
 server.listen(10, '185.199.108.153');
-*/
