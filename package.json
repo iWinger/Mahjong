@@ -1,0 +1,27 @@
+{
+  "name": "mahjong",
+  "version": "1.0.0",
+  "description": "Mahjong Game",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  },
+  "scripts": {
+    "test": "Test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iWinger/Mahjong.git"
+  },
+  "keywords": [
+    "Mahjong",
+    "Fun"
+  ],
+  "author": "Wingjun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iWinger/Mahjong/issues"
+  },
+  "homepage": "https://github.com/iWinger/Mahjong#readme"
+}

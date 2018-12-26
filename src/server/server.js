@@ -1,11 +1,12 @@
 /* Create a http server */
-console.log('Testing...');
-var http = require('http');
+//console.log('Testing...');
+var express = require('express');
+var app = express();
+var server = require('http').Server(app);
 
-var server = http.createServer(function(req,res){
-	res.writeHead(200, {"Content-Type": "text/html"});
-	res.end('Hello <strong>world!</strong><br/> From Mahjong Company!');
-	res.end();
-});
+var port = process.env.PORT || '3060';
+server.listen(port, '0.0.0.0');
+console.log('Server listening on port' + port)
 
-server.listen(10, '185.199.108.153');
+
+
